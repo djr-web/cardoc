@@ -1,0 +1,69 @@
+/* remove margins */
+
+*{
+  margin-left: 0;
+  margin-right: 0;
+  padding-left: 0;
+  padding-right: 0;
+  box-sizing: border-box;
+}
+
+/* style for header box */
+.header{
+  background: linear-gradient(to bottom right, #106496,#0487D5);
+  padding: 20px 50px;
+  color: #161819;
+  margin: 0px;
+  border-bottom: solid 5px #106496;
+  font-family: 'Poppins',Helvetica , sans-serif;
+  font-weight: 900;
+}
+
+/* style for main menu items */
+.main_menu_item{
+  background-color:#106496;
+  text-align: center;
+  list-style: none;
+  display: inline-block;
+  padding: 20px 50px ;
+  border-radius: 20px;
+}
+
+/* style for standard body background and fonts */
+
+
+.main_body{
+  background: url(background_transparent1.png); background-opacity:0.6;
+  background-size: cover;
+  text-align: center;
+  margin: 0px;
+  padding: 20px 50px 500px 50px;
+  font-family: 'Poppins',Helvetica , sans-serif;
+  font-weight: 600;
+}
+
+
+/* footer style */
+.main_footer{
+  background: linear-gradient(to bottom right, #106496,#0487D5);
+  padding: 20px 50px;
+  color: #161819;
+  margin: 0px;
+  border-top: solid 3px #106496;
+  font-family: 'Poppins',Helvetica , sans-serif;
+  font-weight: 900;
+  text-align: center;
+}
+a:hover{color:red}
+
+h1{
+  font-size: 10em;
+  font-weight: 800;
+  margin: 0px;
+}
+
+h2{
+  font-size: 2em;
+  font-weight: 800;
+  margin: 0px;
+}
